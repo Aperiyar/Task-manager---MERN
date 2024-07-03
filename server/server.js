@@ -13,6 +13,15 @@ app.use(express.json());
 
 app.use(cors());
 
+//deploy example
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+
 //middleware
 app.use((req, res, next) => {
   console.log("path" + req.path + "method" + req.method);
