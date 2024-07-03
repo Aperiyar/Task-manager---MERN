@@ -33,9 +33,4 @@ mongoose
   })
   .catch((error) => console.log(error));
 
-//deploy example
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
 app.use("/api/tasks", taskRoutes);
