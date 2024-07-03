@@ -7,7 +7,7 @@ const initialState = {
   error: "",
 };
 
-const BASE_URL = "https://task-manager-mern-vtw7.onrender.com";
+const BASE_URL = 'https://task-manager-mern-vtw7.onrender.com/api/tasks';
 //'https://mern-ng9l-gktngxoxa-peri.vercel.app'
 
 //GET
